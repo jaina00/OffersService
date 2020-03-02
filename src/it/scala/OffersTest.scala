@@ -132,9 +132,9 @@ class OffersTest extends WordSpec with ScalaFutures
       //Then
       whenReady(expiredOffer){ res =>
         res.status shouldBe StatusCodes.NotFound
-//        whenReady(Unmarshal(res.entity).to[String]){ errorMsg =>
-//          errorMsg shouldBe "Offer is cancelled"
-//        }
+        whenReady(Unmarshal(res.entity).to[String]){ errorMsg =>
+          errorMsg shouldBe "Offer is not found or is expired"
+        }
       }
     }
 
