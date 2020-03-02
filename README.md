@@ -22,7 +22,7 @@ While posting the data, users can send some invalid data. So some basic validati
 - PATCH /offers/{offer-id}/CANCELLED to cancel an offer
 
 - execute ./scripts/unit-test.sh to run the unit tests
-- execute ./scripts/integration-test.sh  to run the unit tests
+- execute ./scripts/integration-test.sh  to run the integration tests
 
 You may have to set permission to run the scripts
 
