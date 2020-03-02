@@ -26,5 +26,5 @@ While posting the data, users can send some invalid data. So some basic validati
 
 You may have to set permission to run the scripts
 
- sudo chmod 755 ./scripts/unit-test.sh
- sudo chmod 755 ./scripts/integration-test.sh
+- sudo chmod 755 ./scripts/unit-test.sh
+- sudo chmod 755 ./scripts/integration-test.sh
